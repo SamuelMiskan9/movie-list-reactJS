@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Rubik+Dirt&display=swap");
+
+.myBG {
+  height: 100vh;
+  background: url("../assets/bg/main2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.title {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  color: tomato;
+  text-shadow: 1px 1px lightgrey;
+}
+
+.title2 {
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 2;
+  color: white;
+  display: inline-block 20px;
+  border: 1px solid white;
+  border-radius: 90px;
+  border-color: white;
+  background: black;
+  position: relative;
+  cursor: pointer;
+  margin-right: 450px;
+  text-align: center;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/bg/scifi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+}
+
+.movieWrapper {
+}
+
+.images {
+  height: 500px;
+  width: auto;
+}
+
+.nav-style {
+  color: blue;
+}
+
+.text-trending {
+  color: white;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.p3 {
+  font-family: "Dangrek", cursive;
+}
+
+.klik {
+  color: white;
+  font-family: "Rubik Dirt", cursive;
+  font-size: 20px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 0.3em;
+  outline: none;
+}
